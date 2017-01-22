@@ -17,14 +17,44 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    
-<body>
-    <input type="text" id="userinput" />
-    <input type ="button" onclick="addTo()" value="Add" />
-    <p id="arrayNumbers"></p>
-     <button id="vertotal" onclick="arregloTotal()"> Ver Total</button>
-     <p id="total"></p>
-    
+    <header id="heading">
+      <div class="title">
+        <h1>Ordenamiento de serie numérica</h1>
+      </div>
+    </header>
+
+    <section class="proceso">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 padding">
+            <label for="userinput">Aquí puedes agregar los números con el botón:</label>
+            <input class="form-control" type="number" id="userinput" />
+            <input class="btn btn-lg btn-primary" type ="button" onclick="addTo()" value="Add" />
+          </div>
+          
+          <div class="col-md-4 padding">
+            <p>Estos son los números que agregaste:</p>
+            <p id="arrayNumbers"></p>
+            <p>Aquí se muestran los elementos repetidos</p>
+          </div>
+          
+          <div class="col-md-4 padding">
+            <button class="btn btn-lg btn-primary" id="vertotal" onclick="arregloTotal()"> Ver Total</button>
+            <p>Sí haces click en el botón, podrás ver los números ordenados:</p>
+            <br>
+            <br>
+            <p id="total"></p>
+            <br>
+            <br>
+            <p>Además aquí se eliminan los elementos repetidos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center">
+      <h5>Powered by <b>@WLabs</b></h5>
+    </footer>
     <script src="js/functions.js"></script>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

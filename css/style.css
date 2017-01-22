@@ -1,0 +1,56 @@
+body{
+	background: #ccc;
+	height: 100%;
+}
+#heading{
+	background: #286090;
+	color:#fff;
+}
+.title{
+	padding: 1.5%;
+}
+.proceso{
+	padding: 4%;
+}
+#arrayNumbers, #total {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+    margin:2%;
+    margin-bottom: 1.5%;
+}
+.transform{
+	    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: scale(1.5,1.5) rotate(10deg);
+    padding: 2%;
+    margin:3%;
+}
+#total:hover{
+	padding: 2%;
+}
+.transform:hover{
+	    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+color:#286090;
+}
+.padding{
+	padding: 3%;
+}
+.btn{
+	margin:3%;
+}
+footer{
+	width: 100%;
+	position: fixed;
+	bottom:0;
+	padding: 1.5%;
+	background:#fff;
+	color:#286090;
+	font-weight: 500;
+}
+footer h5{
+	margin: 0 auto;
+}
